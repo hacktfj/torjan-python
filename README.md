@@ -4,7 +4,7 @@ a simple torjan written with python ；python写的盗号木马
 
 #### 2.U盘传播
 
-#### 3.远程执行任意exe
+#### 3.远程执行
 
 #### 4.其他
 
